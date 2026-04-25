@@ -1,0 +1,24 @@
+resources:
+  - api-gateway/deployment.yaml
+  - api-gateway/service.yaml
+
+  - frontend/deployment.yaml
+  - frontend/service.yaml
+
+  - users-service/deployment.yaml
+  - users-service/service.yaml
+
+  - tours-service/deployment.yaml
+  - tours-service/service.yaml
+
+  - bookings-service/deployment.yaml
+  - bookings-service/service.yaml
+
+  - reviews-service/deployment.yaml
+  - reviews-service/service.yaml
+
+  - blog-service/deployment.yaml
+  - blog-service/service.yaml
+
+  - chat-service/deployment.yaml
+  - chat-service/service.yaml
