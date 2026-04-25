@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: bookings-service
-          image: mnhat1/bookings-service:54
+          image: mnhat1/bookings-service:55
           ports:
             - containerPort: 4004
