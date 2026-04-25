@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: users-service
-          image: mnhat1/users-service:latest
+          image: mnhat1/users-service:52
           ports:
             - containerPort: 4002
