@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: bookings-service
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: bookings-service
+  template:
+    metadata:
+      labels:
+        app: bookings-service
+    spec:
+      containers:
+        - name: bookings-service
+          image: mnhat1/bookings-service:latest
+          ports:
+            - containerPort: 4004
