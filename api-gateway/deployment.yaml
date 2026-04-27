@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: api-gateway
-          image: mnhat1/api-gateway:64
+          image: mnhat1/api-gateway:65
           ports:
             - containerPort: 4000
