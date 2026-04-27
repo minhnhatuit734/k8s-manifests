@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: chat-service
-          image: mnhat1/chat-service:61
+          image: mnhat1/chat-service:64
           ports:
             - containerPort: 4007

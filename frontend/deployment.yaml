@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: mnhat1/frontend:61
+          image: mnhat1/frontend:64
           ports:
             - containerPort: 3000
