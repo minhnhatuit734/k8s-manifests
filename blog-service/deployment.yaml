@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: blog-service
-          image: mnhat1/blog-service:65
+          image: mnhat1/blog-service:111
           ports:
             - containerPort: 4006

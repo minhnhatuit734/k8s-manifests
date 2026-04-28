@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: auth-service
-          image: mnhat1/auth-service:65
+          image: mnhat1/auth-service:111
           ports:
             - containerPort: 4001

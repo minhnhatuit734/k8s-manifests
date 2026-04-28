@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: tours-service
-          image: mnhat1/tours-service:65
+          image: mnhat1/tours-service:111
           ports:
             - containerPort: 4003
