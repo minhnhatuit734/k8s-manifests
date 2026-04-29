@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: users-service
-          image: mnhat1/users-service:116
+          image: mnhat1/users-service:117
           ports:
             - containerPort: 4002
