@@ -18,6 +18,8 @@ spec:
           ports:
             - containerPort: 4000
           envFrom:
+            - configMapRef:
+                name: kltn-app-config
             - secretRef:
                 name: kltn-app-secrets
             

@@ -17,3 +17,8 @@ spec:
           image: mnhat1/chat-service:118
           ports:
             - containerPort: 4007
+          envFrom:
+            - configMapRef:
+                name: kltn-app-config
+            - secretRef:
+                name: kltn-app-secrets
