@@ -17,3 +17,7 @@ spec:
           image: mnhat1/api-gateway:118
           ports:
             - containerPort: 4000
+          envFrom:
+            - secretRef:
+                name: kltn-app-secrets
+            

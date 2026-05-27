@@ -17,3 +17,6 @@ spec:
           image: mnhat1/bookings-service:118
           ports:
             - containerPort: 4004
+          envFrom:
+            - secretRef:
+                name: kltn-app-secrets

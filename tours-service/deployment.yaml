@@ -17,3 +17,6 @@ spec:
           image: mnhat1/tours-service:118
           ports:
             - containerPort: 4003
+          envFrom:
+            - secretRef:
+                name: kltn-app-secrets
