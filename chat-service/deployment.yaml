@@ -16,7 +16,7 @@ spec:
         - name: chat-service
           image: mnhat1/chat-service:119
           ports:
-            - containerPort: 4007
+            - containerPort: 3007
           envFrom:
             - configMapRef:
                 name: kltn-app-config

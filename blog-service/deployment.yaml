@@ -16,7 +16,7 @@ spec:
         - name: blog-service
           image: mnhat1/blog-service:119
           ports:
-            - containerPort: 4006
+            - containerPort: 3006
           envFrom:
             - configMapRef:
                 name: kltn-app-config

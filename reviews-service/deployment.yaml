@@ -16,7 +16,7 @@ spec:
         - name: reviews-service
           image: mnhat1/reviews-service:119
           ports:
-            - containerPort: 4005
+            - containerPort: 3005
           envFrom:
             - configMapRef:
                 name: kltn-app-config

@@ -16,7 +16,7 @@ spec:
         - name: bookings-service
           image: mnhat1/bookings-service:119
           ports:
-            - containerPort: 4004
+            - containerPort: 3004
           envFrom:
             - configMapRef:
                 name: kltn-app-config

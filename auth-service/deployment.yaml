@@ -16,7 +16,7 @@ spec:
         - name: auth-service
           image: mnhat1/auth-service:119
           ports:
-            - containerPort: 4001
+            - containerPort: 3002
           envFrom:
             - configMapRef:
                 name: kltn-app-config
