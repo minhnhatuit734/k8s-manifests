@@ -3,9 +3,10 @@ kind: Service
 metadata:
   name: blog-service
 spec:
+  type: ClusterIP
   selector:
     app: blog-service
   ports:
-    - port: 80
-      targetPort: 4006
-  type: NodePort
+    - name: http
+      port: 80
+      targetPort: 3006

@@ -3,9 +3,10 @@ kind: Service
 metadata:
   name: tours-service
 spec:
+  type: ClusterIP
   selector:
     app: tours-service
   ports:
-    - port: 80
-      targetPort: 4003
-  type: NodePort
+    - name: http
+      port: 80
+      targetPort: 3003

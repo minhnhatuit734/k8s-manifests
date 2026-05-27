@@ -3,9 +3,10 @@ kind: Service
 metadata:
   name: api-gateway
 spec:
+  type: LoadBalancer
   selector:
     app: api-gateway
   ports:
-    - port: 80
+    - name: http
+      port: 80
       targetPort: 4000
-  type: NodePort

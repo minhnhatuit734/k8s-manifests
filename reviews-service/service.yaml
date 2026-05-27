@@ -3,9 +3,10 @@ kind: Service
 metadata:
   name: reviews-service
 spec:
+  type: ClusterIP
   selector:
     app: reviews-service
   ports:
-    - port: 80
-      targetPort: 4005
-  type: NodePort
+    - name: http
+      port: 80
+      targetPort: 3005

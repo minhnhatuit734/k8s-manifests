@@ -3,9 +3,10 @@ kind: Service
 metadata:
   name: auth-service
 spec:
+  type: ClusterIP
   selector:
     app: auth-service
   ports:
-    - port: 80
-      targetPort: 4001
-  type: NodePort
+    - name: http
+      port: 80
+      targetPort: 3002

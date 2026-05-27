@@ -3,9 +3,10 @@ kind: Service
 metadata:
   name: bookings-service
 spec:
+  type: ClusterIP
   selector:
     app: bookings-service
   ports:
-    - port: 80
-      targetPort: 4004
-  type: NodePort
+    - name: http
+      port: 80
+      targetPort: 3004
