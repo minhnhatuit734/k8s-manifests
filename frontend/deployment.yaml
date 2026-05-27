@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: mnhat1/frontend:119
+          image: mnhat1/frontend:118
           ports:
             - containerPort: 3000
           envFrom:
