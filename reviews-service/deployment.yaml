@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: reviews-service
-          image: mnhat1/reviews-service:118
+          image: mnhat1/reviews-service:119
           ports:
             - containerPort: 4005
           envFrom:
