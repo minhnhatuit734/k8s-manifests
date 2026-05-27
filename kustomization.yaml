@@ -20,3 +20,4 @@ resources:
   - chat-service/service.yaml
   - auth-service/deployment.yaml
   - auth-service/service.yaml
+  - configmap.yaml
