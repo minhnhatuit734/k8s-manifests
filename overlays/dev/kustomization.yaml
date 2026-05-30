@@ -1,0 +1,37 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+namespace: dev
+
+resources:
+  - ../../base
+  - namespace.yaml
+
+labels:
+  - pairs:
+      environment: dev
+      project: kltn
+    includeSelectors: false
+
+images:
+  - name: mnhat1/api-gateway
+    newTag: dev-placeholder
+  - name: mnhat1/auth-service
+    newTag: dev-placeholder
+  - name: mnhat1/users-service
+    newTag: dev-placeholder
+  - name: mnhat1/tours-service
+    newTag: dev-placeholder
+  - name: mnhat1/bookings-service
+    newTag: dev-placeholder
+  - name: mnhat1/reviews-service
+    newTag: dev-placeholder
+  - name: mnhat1/blog-service
+    newTag: dev-placeholder
+  - name: mnhat1/chat-service
+    newTag: dev-placeholder
+  - name: mnhat1/frontend
+    newTag: dev-placeholder
+
+patches:
+  - path: patches/replicas.yaml
