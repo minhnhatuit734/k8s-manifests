@@ -15,23 +15,23 @@ labels:
 
 images:
   - name: mnhat1/api-gateway
-    newTag: dev-placeholder
+    newTag: dev-17-5a8b5662
   - name: mnhat1/auth-service
-    newTag: dev-placeholder
+    newTag: dev-17-5a8b5662
   - name: mnhat1/users-service
-    newTag: dev-placeholder
+    newTag: dev-17-5a8b5662
   - name: mnhat1/tours-service
-    newTag: dev-placeholder
+    newTag: dev-17-5a8b5662
   - name: mnhat1/bookings-service
-    newTag: dev-placeholder
+    newTag: dev-17-5a8b5662
   - name: mnhat1/reviews-service
-    newTag: dev-placeholder
+    newTag: dev-17-5a8b5662
   - name: mnhat1/blog-service
-    newTag: dev-placeholder
+    newTag: dev-17-5a8b5662
   - name: mnhat1/chat-service
-    newTag: dev-placeholder
+    newTag: dev-17-5a8b5662
   - name: mnhat1/frontend
-    newTag: dev-placeholder
+    newTag: dev-17-5a8b5662
 
 patches:
   - path: patches/replicas.yaml
