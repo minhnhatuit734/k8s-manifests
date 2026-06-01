@@ -1,0 +1,14 @@
+﻿{
+  "spec": {
+    "hostNetwork": true,
+    "containers": [{
+      "name": "nettest",
+      "image": "quay.io/argoproj/argocd@sha256:c612d570cb6d6ff29afb72932c1bfe98a1ecc234df50f8ea4873fb7066e760fc",
+      "imagePullPolicy": "Never",
+      "command": ["/bin/bash"],
+      "args": ["-c", "wget -q --timeout=10 --tries=1 -O- https://github.com > /dev/null 2>&1 && echo GITHUB_OK || echo GITHUB_FAIL; wget -q --timeout=10 --tries=1 -O- https://quay.io > /dev/null 2>&1 && echo QUAY_OK || echo QUAY_FAIL; cat /etc/resolv.conf"],
+      "stdin": true,
+      "tty": true
+    }]
+  }
+}

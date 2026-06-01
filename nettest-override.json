@@ -1,0 +1,12 @@
+﻿{
+  "spec": {
+    "containers": [{
+      "name": "nettest",
+      "image": "docker.io/mnhat1/api-gateway@sha256:19066489d22bf97330c66d789b9effb1802516155de0c0cf460411e2236fd1b9",
+      "imagePullPolicy": "Never",
+      "command": ["sh"],
+      "stdin": true,
+      "tty": true
+    }]
+  }
+}
