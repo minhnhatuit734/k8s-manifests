@@ -3,9 +3,17 @@ kind: Ingress
 metadata:
   name: kltn-prod-ingress
   annotations:
+    cert-manager.io/cluster-issuer: letsencrypt-prod
     nginx.ingress.kubernetes.io/proxy-body-size: "20m"
+    nginx.ingress.kubernetes.io/ssl-redirect: "true"
+    nginx.ingress.kubernetes.io/force-ssl-redirect: "true"
 spec:
   ingressClassName: nginx
+  tls:
+    - hosts:
+        - prod.uittravel.shop
+        - api-prod.uittravel.shop
+      secretName: kltn-prod-tls
   rules:
     - host: prod.uittravel.shop
       http:
