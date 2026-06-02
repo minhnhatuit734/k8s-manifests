@@ -35,3 +35,4 @@ images:
 
 patches:
   - path: patches/replicas.yaml
+  - path: patches/mongo-url-per-service.yaml
