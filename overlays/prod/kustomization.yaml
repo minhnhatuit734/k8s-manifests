@@ -19,9 +19,9 @@ images:
   - name: mnhat1/auth-service
     newTag: prod-19-2808944a
   - name: mnhat1/users-service
-    newTag: prod-19-2808944a
+    newTag: prod-20-657f919f
   - name: mnhat1/tours-service
-    newTag: prod-19-2808944a
+    newTag: prod-20-657f919f
   - name: mnhat1/bookings-service
     newTag: prod-19-2808944a
   - name: mnhat1/reviews-service
