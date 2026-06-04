@@ -19,7 +19,7 @@ images:
   - name: mnhat1/auth-service
     newTag: prod-16-cb880811
   - name: mnhat1/users-service
-    newTag: prod-16-cb880811
+    newTag: prod-17-6cc1d90c
   - name: mnhat1/tours-service
     newTag: prod-16-cb880811
   - name: mnhat1/bookings-service
