@@ -10,3 +10,5 @@ data:
   REVIEWS_SERVICE_URL: http://reviews-service
   BLOG_SERVICE_URL: http://blog-service
   CHAT_SERVICE_URL: http://chat-service
+  RASA_SERVER_URL: https://chatbot.uittravel.shop
+  RASA_WEBHOOK_URL: https://chatbot.uittravel.shop/webhooks/rest/webhook
