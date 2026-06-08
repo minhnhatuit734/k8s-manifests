@@ -29,7 +29,7 @@ images:
   - name: mnhat1/blog-service
     newTag: dev-30-5fc5627b
   - name: mnhat1/chat-service
-    newTag: dev-30-5fc5627b
+    newTag: "120"
   - name: mnhat1/frontend
     newTag: dev-30-5fc5627b
 
