@@ -17,6 +17,10 @@ spec:
 
   syncPolicy:
     automated:
-      enabled: true
       prune: true
       selfHeal: true
+  ignoreDifferences:
+  - group: apps
+    kind: Deployment
+    jsonPointers:
+    - /spec/replicas
