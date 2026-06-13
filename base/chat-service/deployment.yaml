@@ -3,7 +3,6 @@ kind: Deployment
 metadata:
   name: chat-service
 spec:
-  replicas: 1
   selector:
     matchLabels:
       app: chat-service
