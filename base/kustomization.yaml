@@ -21,3 +21,12 @@ resources:
   - auth-service/deployment.yaml
   - auth-service/service.yaml
   - configmap.yaml
+  - api-gateway/hpa.yaml
+  - frontend/hpa.yaml
+  - users-service/hpa.yaml
+  - tours-service/hpa.yaml
+  - bookings-service/hpa.yaml
+  - reviews-service/hpa.yaml
+  - blog-service/hpa.yaml
+  - chat-service/hpa.yaml
+  - auth-service/hpa.yaml
